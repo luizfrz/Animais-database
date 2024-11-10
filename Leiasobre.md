@@ -1,4 +1,4 @@
-# Projeto zoologico - put
+# Projeto zoologico - Put 
 Esse projeto tem intuito de notificar que falta animais zoologico
 uma ideia meio sem sentido, mas serviu que pude aplicar meu conhecimento em php relação banco de dados
 
