@@ -1,6 +1,7 @@
 body{
     background-image: linear-gradient(to right, rgb(40, 49, 234), rgb(173, 157, 233));
 }
+/* contaimer é geral que requisita todos que estao dentro */
 .contaimer{
     width: 15%;
     background-image: linear-gradient(to right, rgb(40, 49, 234), rgb(26, 12, 78));
@@ -41,7 +42,6 @@ legend{
     overflow: hidden;
     font-weight: bold;
   }
-  
   .boton-elegante::after {
     content: "";
     position: absolute;
@@ -57,11 +57,9 @@ legend{
     transform: scale(0);
     transition: transform 0.5s ease;
   }
-  
   .boton-elegante:hover::after {
     transform: scale(4);
   }
-  
   .boton-elegante:hover {
     border-color: #170c8c;
     background: #292929;
@@ -88,12 +86,10 @@ legend{
     border-top-width: 0.2em;
     background-color: #f1e8e8;
    }
-   
    .input:focus {
     border-top-width: 0.2em;
     background-color: #f1e8e8;
    }
-  
 @media (max-width:802px){
     .contaimer{
         width: 300px;
