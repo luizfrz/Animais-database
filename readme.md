@@ -5,7 +5,7 @@ uma ideia meio sem sentido, mas serviu que pude aplicar meu conhecimento em php 
 # Banco de dados utilizado
 <h2>Workbench</h2>
 
-<img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/mysql_workbench_macos_bigsur_icon_189924.png" alt="">
+<img width="200px" src="https://cdn.icon-icons.com/icons2/3053/PNG/512/mysql_workbench_macos_bigsur_icon_189924.png" alt="">
 
 <h1>Visualização</h1>
 <h2>Computer</h2>
