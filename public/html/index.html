@@ -1,25 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/public/css/style.css">
-    <title>Zoológico</title>
+    <title>Banco de dados - Animais</title>
 </head>
+<header>
+    <h1>Projeto Zoo Made in php</h1>
+    <span>Banco de dados para animais, utilizando sql e php para ser realizado</span>
+    <img src="/assents/ZOO MADE IN PHP.png">
+</header>
 <body>
-    <div class="contaimer">
-    <div class="welcome">
-        <h1>ZooPut</h1>
-        <img  src="/assents/ZOO MADE IN PHP.png" width="200px" alt="logo-canva">
-    </div>
-<fieldset class="fieldset-1">
-    <form action="/src/index.php" method="post">
-
-        <input name="sendpet" class="input"  type="text" placeholder="Envie!">
-    <input class="boton-elegante" type="submit" value="ENVIAR ANIMAL" >
-    </form>
-</fieldset>
-</div>
-
+    <fieldset>
+        <form action="/src/index.php" method="post">
+            <input name="sendpet" class="input"  type="text" placeholder="Envie!">
+        <input type="submit" value="CONFIMAR ENVIO" >
+        </form>
+    </fieldset>
 </body>
 </html>
