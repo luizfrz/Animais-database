@@ -27,6 +27,6 @@
 
    header("Location: thanks.html");
    exit();
-   ?>
+  ?>
    
    
