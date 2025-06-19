@@ -1,9 +1,9 @@
 <?php
-   $servidor = '';
+   $servidor = 'Entrada';
    $porta = 3306;
    $user = 'root';
    $password = '';
-   $bancozoo = 'zooput';
+   $bancozoo = 'Animalesco';
 
    $conection = new mysqli($servidor, $user, $password, $bancozoo, $porta);
    
@@ -14,7 +14,7 @@
    
    $sendpet = $_POST['sendpet'];
 
-   $putzoo = $conection->prepare("INSERT INTO zooputphp (zoopot) VALUES (?)");
+   $putzoo = $conection->prepare("INSERT INTO Entrada (zoopot) VALUES (?)");
    if (!$putzoo) {
        die('Erro na tentativa: ' . $conection->error);
    }
@@ -26,6 +26,7 @@
    $conection->close();
 
    header("Location: thanks.html");
+
    exit();
   ?>
    
