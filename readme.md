@@ -1,1 +1,1 @@
-Bem vindo ao banco de dados
+Bem vindo, esse projeto tem objetivo de envio sobre animais, utilizando a linguagem php
